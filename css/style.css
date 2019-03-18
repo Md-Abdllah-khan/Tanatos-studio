@@ -1,0 +1,476 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Banner section start*/
+.theme-color{
+    color: #F7600E;
+}
+.banner-section{
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+    padding:85px 0px;
+}
+
+.banner-content{
+    padding-top: 85px;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+	color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-content p{
+    font-size: 16px;
+	color:#F7600E;
+	line-height: 25px;
+    width: 45%;
+    margin:0 auto;
+}
+
+.btn-hire{
+    margin-top: 60px;
+    background-color: #F7600E;
+    border: none;
+    padding: 5px 25px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.btn-hire:hover{
+	background: #E25C2B;
+	color:#fff;
+    transition: 0.5s;
+}
+.down-button{
+    margin-top: 36px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.down-button:hover{
+    background: #F7600E;
+    transition: 0.5s;
+}
+/*Banner section End*/
+
+/*Work section start*/
+.work-section{
+     padding:85px 0px;
+
+}
+/*
+.work-content{
+    padding-top:65px;
+}
+*/
+.work-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color:#292D33;
+    text-transform: uppercase;
+}
+.work-content p{
+    font-size: 16px;
+    color:#292D33;
+    line-height: 25px;
+    width: 45%;
+    margin:0 auto;
+}
+.portfolio{
+    padding: 30px 0px;
+}
+.btn-show{
+    font-size: 16px;
+    padding: 5px 35px;
+    display: block;
+    margin:0 auto;
+    background-color: #C2C2C2;
+    text-transform: uppercase;
+}
+.btn-show:hover{
+    background-color: #F7600E;
+    color:#fff;
+    transition: 0.5s;
+    border:1px solid #F7600E;
+}
+/*Work section End*/
+
+/*Team section Start*/
+
+/*
+.team-section{
+     padding:85px 0px;
+}
+*/
+
+.team-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color:#292D33;
+    text-transform: uppercase;
+}
+.team-content p{
+    font-size: 16px;
+    color: #292D33;
+    line-height: 25px;
+    width: 45%;
+    margin:0 auto;
+}
+.team{
+    padding: 85px 0px;
+
+}
+.team h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #292D33;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team p{
+    font-size: 12px;
+     color:#292D33;
+     line-height: 25px;
+     text-align: center;
+}
+.team img{
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+    
+}
+.team img:hover{
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+      border-bottom: 2px solid #F7600E;
+
+    /* transition: 0.5s;
+    transform: scale(1,1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    border-bottom: 2px solid #F7600E;*/
+}
+
+/*Team section End*/
+
+/*Contact section Start*/
+
+.contact{
+    background: url(../images/contact.png);
+    background-size: cover;
+    padding:80px 0px;
+}
+.contact-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.contact-content p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    width: 45%;
+    margin:0 auto;
+}
+.contact-form{
+    padding: 40px 0px;
+}
+.btn-cnt{
+    font-size: 16px;
+    padding: 5px 35px;
+    background-color: #F7600E;
+    text-transform: uppercase;
+    color:#fff;
+    border: none;
+}
+.btn-cnt:hover{
+    background-color: #E25C2B;
+    color:#fff;
+    transition: 0.5s;
+    border: none;
+}
+
+/*Contact section End*/
+
+/*Footer section start*/
+
+footer{
+    background-color: #3b434c;
+    padding:20px;
+}
+footer h5{
+    color:#fff;
+    text-align: center;
+}
+/*Footer section End*/
+
+/*Media Query css*/
+
+@media screen and (max-width: 480px){
+    .logo{
+        display: block;
+        margin:0 auto;
+    }
+    .banner-content{
+        padding-top: 20px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+    }
+    .btn-hire {
+        margin-top: 20px;
+    }
+    .down-button{
+        margin-bottom: 0px;
+    }
+
+    .work-content h1{
+         font-size: 30px;
+    }
+    .work-content p {
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+    }
+    .work-content {
+        padding-top: 0px;
+    }
+    .btn-show {
+        font-size: 14px;
+        padding: 1px 12px;
+    }
+    .portfolio {
+        padding: 15px 20px;
+    }
+    .team-section {
+        padding: 0px 0px;
+    }
+    .team-content h1{
+        font-size: 30px;
+    }
+    .team-content p {
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+    }
+    .profile {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .team p{
+        text-align: center;
+        width: 50%;
+        line-height: 17px;
+        margin: 0px 105px;
+    }
+    .contact {
+        padding: 0px 0px;
+    }
+    .contact-content h1{
+        font-size: 30px;
+    }
+    .contact-content p {
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+    }
+    .btn-cnt {
+        font-size: 15px;
+        padding: 2px 15px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+
+    .logo{
+        display: block;
+        margin:0 auto;
+    }
+    .container {
+        width: 100%;
+    }
+    .banner-content{
+        padding-top: 20px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 16px;
+        text-align: center;
+        width: 75%;
+        line-height: 20px;
+    }
+    .btn-hire {
+        margin-top: 20px;
+    }
+    .down-button{
+        margin-bottom: 0px;
+    }
+    .work-section {
+        padding: 25px 0px;
+    }
+    .work-content h1{
+         font-size: 30px;
+    }
+    .work-content p {
+        text-align: center;
+        width: 60%;
+        line-height: 20px;
+    }
+    .work-content {
+        padding-top: 0px;
+    }
+    .portfolio {
+        display:block;
+        margin: 0 auto;
+    }
+    .btn-show {
+        font-size: 14px;
+        padding: 1px 15px;
+    }
+    .team-section {
+        padding: 0px 0px;
+    }
+    .team-content h1{
+        font-size: 30px;
+    }
+    .team-content p {
+        text-align: center;
+        width: 70%;
+        line-height: 20px;
+    }
+    .profile {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .team p{
+        text-align: center;
+        width: 50%;
+        line-height: 17px;
+        margin: 0px 105px;
+    }
+    .contact {
+        padding: 0px 0px;
+    }
+    .contact-content h1{
+        font-size: 30px;
+   }
+    .contact-content p {
+        text-align: center;
+        width: 60%;
+        line-height: 20px;
+    }
+    .btn-cnt {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer{
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+
+    .logo{
+        display: block;
+        margin:0 auto;
+    }
+    .container {
+        width: 100%;
+    }
+    .banner-content{
+        padding-top: 20px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 16px;
+        text-align: center;
+        width: 75%;
+        line-height: 20px;
+    }
+    .btn-hire {
+        margin-top: 20px;
+    }
+    .down-button{
+        margin-bottom: 0px;
+    }
+    .work-section {
+        padding: 25px 0px;
+    }
+    .work-content h1{
+         font-size: 30px;
+    }
+    .work-content p {
+        text-align: center;
+        width: 60%;
+        line-height: 20px;
+    }
+    .work-content {
+        padding-top: 0px;
+    }
+    .portfolio {
+        display:block;
+        margin: 0 auto;
+    }
+    .btn-show {
+        font-size: 14px;
+        padding: 1px 15px;
+    }
+    .team-section {
+        padding: 0px 0px;
+    }
+    .team-content h1{
+        font-size: 30px;
+    }
+    .team-content p {
+        text-align: center;
+        width: 70%;
+        line-height: 20px;
+    }
+    .profile {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .team p{
+        text-align: center;
+        width: 50%;
+        line-height: 17px;
+        margin: 0px 105px;
+    }
+
+    .footer{
+        padding: 20px 0px;
+    }
+    footer{
+    background-color: #3b434c;
+    padding:20px;
+}
+footer h5{
+    color:#fff;
+    text-align: center;
+}
+}
